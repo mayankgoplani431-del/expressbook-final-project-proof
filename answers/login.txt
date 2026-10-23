@@ -1,0 +1,2 @@
+$ curl -s -c /tmp/eb_cookies.txt -X POST http://localhost:5000/customer/login -H 'Content-Type: application/json' -d '{"username":"mayank","password":"pass123"}'
+{"message":"Login successful!"}
